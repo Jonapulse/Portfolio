@@ -3,8 +3,15 @@ import * as CSS from 'csstype';
 import { InteractiveLink } from './InteractiveLink';
 import { Switch, Route } from 'react-router-dom';
 import { Home } from './Home';
-import { Project1 } from './Project1';
-import { Project2 } from './Project2';
+import { G1LightBorrower } from './G1LightBorrower';
+import { G2HeartburnBoulevard } from './G2HeartburnBoulevard';
+import { G3Pratfall } from './G3Pratfall';
+import { T13DControllerConversion } from './T13DControllerConversion';
+import { T2LevelEditor } from './T2LevelEditor';
+import { T3HotsTracker } from './T3HotsTracker';
+import { PortfolioPage } from './PortfolioPage';
+import { Resume } from './Resume';
+import { Contact } from './Contact';
 import { ExampleComponent } from './ExampleComponent';
 import { ExampleTwoDeepComponent } from './ExampleTwoDeepComponent';
 import { SitemapLinkGenerator } from './SitemapLinkGenerator';
@@ -41,17 +48,26 @@ const breadcrumbsStyle: CSS.Properties = {
 export const App: React.VFC = () => (
   <div style={rootStyle}>
     <h1 style={titleStyle}>Jonah's Really Cool Portfolio</h1>
-    <InteractiveLink
-      href="https://github.com/rafgraph/spa-github-pages"
-      style={repoLinkStyle}
-    >
-      https://github.com/rafgraph/spa-github-pages
-    </InteractiveLink>
-
+	<div>
+		<InteractiveLink to="/"> Home </InteractiveLink>
+		|
+		<InteractiveLink to="/PortfolioPage"> Portfolio </InteractiveLink>
+		|
+		<InteractiveLink to="/Resume"> Resume </InteractiveLink>
+		|
+		<InteractiveLink to="/Contact"> Contact </InteractiveLink>
+	</div>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/project1" component={Project1} />
-      <Route exact path="/project2" component={Project2} />
+      <Route exact path="/G1LightBorrower" component={G1LightBorrower} />
+      <Route exact path="/G2HeartburnBoulevard" component={G2HeartburnBoulevard} />
+	  <Route exact path="/G3Pratfall" component={G3Pratfall} />
+	  <Route exact path="/T13DControllerConversion" component={T13DControllerConversion} />
+      <Route exact path="/T2LevelEditor" component={T2LevelEditor} />
+	  <Route exact path="/T3HotsTracker" component={T3HotsTracker} />
+	  <Route exact path="/PortfolioPage" component={PortfolioPage} />
+	  <Route exact path="/Resume" component={Resume} />
+	  <Route exact path="/Contact" component={Contact} />
     </Switch>
   </div>
 );

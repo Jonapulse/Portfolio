@@ -14,8 +14,8 @@ const RepoReadmeLink: React.VFC = () => (
   </InteractiveLink>
 );
 
-export const Project1: React.VFC = () => (
+export const G2HeartburnBoulevard: React.VFC = () => (
   <div>
-    <P>This is project 1</P>
+    <P>This is G2HeartburnBoulevard! it's EVEN COOLER</P>
   </div>
 );

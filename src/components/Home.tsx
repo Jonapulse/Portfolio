@@ -17,12 +17,28 @@ const RepoReadmeLink: React.VFC = () => (
 export const Home: React.VFC = () => (
   <div>
     <P>This is the home view, see projects below:</P>
-    <InteractiveLink to="/Project1">
-      This is the page for project one
+    <InteractiveLink to="/G1LightBorrower">
+      This is the page for Light Borrower
     </InteractiveLink>
     <br></br>
-    <InteractiveLink to="/Project2">
-      This is the page for project two
+    <InteractiveLink to="/G2HeartburnBoulevard">
+      This is the page for Heartburn Boulevard
+    </InteractiveLink>
+	<br></br>
+	<InteractiveLink to="/G3Pratfall">
+      This is the page for Pratfall
+    </InteractiveLink>
+	<br></br>
+	<InteractiveLink to="/T13DControllerConversion">
+      This is the page for 3D Controller Conversion
+    </InteractiveLink>
+	<br></br>
+	<InteractiveLink to="/T2LevelEditor">
+      This is the page for Level Editor
+    </InteractiveLink>
+	<br></br>
+	<InteractiveLink to="/T3HotsTracker">
+      This is the page for Hots Tracker
     </InteractiveLink>
   </div>
 );
