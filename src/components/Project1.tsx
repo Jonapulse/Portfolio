@@ -14,15 +14,8 @@ const RepoReadmeLink: React.VFC = () => (
   </InteractiveLink>
 );
 
-export const Home: React.VFC = () => (
+export const Project1: React.VFC = () => (
   <div>
-    <P>This is the home view, see projects below:</P>
-    <InteractiveLink to="/Project1">
-      This is the page for project one
-    </InteractiveLink>
-    <br></br>
-    <InteractiveLink to="/Project2">
-      This is the page for project two
-    </InteractiveLink>
+    <P>This is project 1</P>
   </div>
 );
