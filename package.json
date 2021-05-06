@@ -4,7 +4,8 @@
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open-page Portfolio",
+    "badbadstart": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open-page Portfolio",
+	"start": "webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp",
     "build": "webpack -p",
     "tsc": "tsc --watch"
   },
