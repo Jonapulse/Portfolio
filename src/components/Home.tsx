@@ -16,29 +16,33 @@ const RepoReadmeLink: React.VFC = () => (
 
 export const Home: React.VFC = () => (
   <div>
-    <P>This is the home view, see projects below:</P>
-    <InteractiveLink to="/G1LightBorrower">
-      This is the page for Light Borrower
-    </InteractiveLink>
-    <br></br>
-    <InteractiveLink to="/G2HeartburnBoulevard">
-      This is the page for Heartburn Boulevard
-    </InteractiveLink>
-	<br></br>
-	<InteractiveLink to="/G3Pratfall">
-      This is the page for Pratfall
-    </InteractiveLink>
-	<br></br>
-	<InteractiveLink to="/T13DControllerConversion">
-      This is the page for 3D Controller Conversion
-    </InteractiveLink>
-	<br></br>
-	<InteractiveLink to="/T2LevelEditor">
-      This is the page for Level Editor
-    </InteractiveLink>
-	<br></br>
-	<InteractiveLink to="/T3HotsTracker">
-      This is the page for Hots Tracker
-    </InteractiveLink>
+    <P>I'm a game designer and developer in Portland, OR. For serious. I'm not from some weird cult enclave like Utah.</P>
+	<div>
+		<InteractiveLink to="/G1LightBorrower">
+		  Light Borrower
+		</InteractiveLink>
+		 | 
+		<InteractiveLink to="/G2HeartburnBoulevard">
+		 Heartburn Boulevard
+		</InteractiveLink>
+		 | 
+		<InteractiveLink to="/G3Pratfall">
+		 Pratfall
+		</InteractiveLink>
+	</div>
+	<br/>
+	<div>
+		<InteractiveLink to="/T13DControllerConversion">
+		 3D Controller Conversion
+		</InteractiveLink>
+		 | 
+		<InteractiveLink to="/T2LevelEditor">
+		 Level Editor
+		</InteractiveLink>
+		 | 
+		<InteractiveLink to="/T3HotsTracker">
+		 Hots Tracker
+		</InteractiveLink>
+	</div>
   </div>
 );

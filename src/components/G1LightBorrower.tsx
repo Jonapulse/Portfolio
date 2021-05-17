@@ -8,12 +8,6 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-const RepoReadmeLink: React.VFC = () => (
-  <InteractiveLink href="https://github.com/rafgraph/spa-github-pages#readme">
-    repo readme
-  </InteractiveLink>
-);
-
 export const G1LightBorrower: React.VFC = () => (
   <div>
     <P>This is G1LightBorrower</P>

@@ -8,12 +8,6 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-const RepoReadmeLink: React.VFC = () => (
-  <InteractiveLink href="https://github.com/rafgraph/spa-github-pages#readme">
-    repo readme
-  </InteractiveLink>
-);
-
 export const T3HotsTracker: React.VFC = () => (
   <div>
     <P>This is T3HotsTracker! it's EVEN... it's not as cool. I'm sorry. I know you got excited.</P>
