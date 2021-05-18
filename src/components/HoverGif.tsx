@@ -3,9 +3,9 @@ import * as CSS from 'csstype';
 //import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
 
-const playingGif = false;
-const _stillPath = "";
-const _gifPath = "";
+let playingGif = false;
+let _stillPath = "";
+let _gifPath = "";
 
 type HoverGifProps = {
     children: React.ReactNode;
@@ -14,6 +14,30 @@ type HoverGifProps = {
 	title: string;
 };
 
-export const HoverGif: React.VFC<HoverGifProps> = (props) => (
-  <img src={props.gifPath} alt="A test gif"></img>
-);
+export const HoverGif: React.VFC<HoverGifProps> = (props) => {
+  _stillPath = props.stillPath;
+  _gifPath = props.gifPath;
+
+  let imgContainer = <img id="projectImg" src={_stillPath} alt="A test gif"></img>;
+
+  function StartGif()
+	{
+		imgContainer.props.src=_gifPath;
+	}
+
+	function EndGif()
+	{
+		imgContainer.props.src=_stillPath;
+	}
+
+  return(
+	<div onMouseEnter={StartGif} onMouseLeave={EndGif}>
+		<div id="projectTitle">{props.title}</div>
+		{imgContainer}
+	</div>
+  );
+}
+
+
+
+
