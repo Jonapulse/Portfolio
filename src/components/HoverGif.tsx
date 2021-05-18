@@ -18,22 +18,12 @@ export const HoverGif: React.VFC<HoverGifProps> = (props) => {
   _stillPath = props.stillPath;
   _gifPath = props.gifPath;
 
-  let imgContainer = <img id="projectImg" src={_stillPath} alt="A test gif"></img>;
-
-  function StartGif()
-	{
-		imgContainer.props.src=_gifPath;
-	}
-
-	function EndGif()
-	{
-		imgContainer.props.src=_stillPath;
-	}
+  const [isPlaying, setPlaying] = React.useState(true);
 
   return(
-	<div onMouseEnter={StartGif} onMouseLeave={EndGif}>
+	<div onMouseEnter={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
 		<div id="projectTitle">{props.title}</div>
-		{imgContainer}
+		<img id="projectImg" src={isPlaying ? _gifPath : _stillPath} alt="A test gif"></img>;
 	</div>
   );
 }
