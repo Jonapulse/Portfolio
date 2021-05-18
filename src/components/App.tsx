@@ -58,7 +58,7 @@ export const App: React.VFC = () => (
 		|
 		<InteractiveLink to="/Contact"> Contact </InteractiveLink>
 
-		<HoverGif />
+		<HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="Testlink"> </HoverGif>
 	</div>
 
     <Switch>
