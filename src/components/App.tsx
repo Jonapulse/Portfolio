@@ -17,7 +17,6 @@ import { ExampleTwoDeepComponent } from './ExampleTwoDeepComponent';
 import { SitemapLinkGenerator } from './SitemapLinkGenerator';
 import { PageNotFound } from './PageNotFound';
 import { Breadcrumbs } from './Breadcrumbs';
-import { HoverGif } from './HoverGif';
 
 const rootStyle: CSS.Properties = {
   fontFamily: 'helvetica, sans-serif',
@@ -52,13 +51,11 @@ export const App: React.VFC = () => (
 	<div>
 		<InteractiveLink to="/"> Home </InteractiveLink>
 		|
-		<InteractiveLink to="/PortfolioPage"> Portfolio <br /> </InteractiveLink>
+		<InteractiveLink to="/PortfolioPage"> Portfolio </InteractiveLink>
 		|
 		<InteractiveLink to="/Resume"> Resume </InteractiveLink>
 		|
 		<InteractiveLink to="/Contact"> Contact </InteractiveLink>
-
-		<HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="Testlink"> </HoverGif>
 	</div>
 
     <Switch>

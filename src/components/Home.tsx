@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as CSS from 'csstype';
 import { InteractiveLink } from './InteractiveLink';
 import { Code, P } from './UI';
+import { HoverGif } from './HoverGif';
 
 const pageLinkContainerStyle: CSS.Properties = {
   display: 'block',
@@ -19,29 +20,29 @@ export const Home: React.VFC = () => (
     <P>I'm a game designer and developer in Portland, OR. For serious. I'm not from some weird cult enclave like Utah.</P>
 	<div>
 		<InteractiveLink to="/G1LightBorrower">
-		  Light Borrower
+		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle1"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/G2HeartburnBoulevard">
-		 Heartburn Boulevard
+		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle2"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/G3Pratfall">
-		 Pratfall
+		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle3"> </HoverGif>Pratfall
 		</InteractiveLink>
 	</div>
 	<br/>
 	<div>
 		<InteractiveLink to="/T13DControllerConversion">
-		 3D Controller Conversion
+		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle4"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/T2LevelEditor">
-		 Level Editor
+		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle5"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/T3HotsTracker">
-		 Hots Tracker
+		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle6"> </HoverGif>
 		</InteractiveLink>
 	</div>
   </div>
