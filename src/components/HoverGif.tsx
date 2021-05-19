@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 let playingGif = false;
 let _stillPath = "";
 let _gifPath = "";
-const overlayPath = '/art/testScreen.png';
+const overlayPath = './art/testScreen.png';
 
 type HoverGifProps = {
     children: React.ReactNode;

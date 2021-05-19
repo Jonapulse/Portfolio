@@ -20,7 +20,7 @@ export const Home: React.VFC = () => (
     <P>I'm a game designer and developer in Portland, OR. For serious. I'm not from some weird cult enclave like Utah.</P>
 	<div>
 		<InteractiveLink to="/G1LightBorrower">
-		  <HoverGif stillPath="/art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle1"> </HoverGif>
+		  <HoverGif stillPath="./art/testGifStill.png" gifPath="/art/testgif.gif" title="TestTitle1"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/G2HeartburnBoulevard">
