@@ -19,7 +19,7 @@ export const HoverGif: React.VFC<HoverGifProps> = (props) => {
   _stillPath = props.stillPath;
   _gifPath = props.gifPath;
 
-  const [isPlaying, setPlaying] = React.useState(true);
+  const [isPlaying, setPlaying] = React.useState(false);
 
   return(
 	<div onMouseEnter={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
