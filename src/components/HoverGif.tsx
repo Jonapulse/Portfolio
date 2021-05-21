@@ -2,11 +2,11 @@ import * as React from 'react';
 import * as CSS from 'csstype';
 //import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
+import './style/hovergif.css';
 
 let playingGif = false;
 let _stillPath = "";
 let _gifPath = "";
-const overlayPath = './art/testScreen.png';
 
 type HoverGifProps = {
     children: React.ReactNode;
@@ -14,6 +14,15 @@ type HoverGifProps = {
 	gifPath: string;
 	title: string;
 };
+
+const invisibleShieldStyle = {
+	display: 'none',
+}
+
+const shieldStyle = 
+{
+	display: 'flex';
+}
 
 export const HoverGif: React.VFC<HoverGifProps> = (props) => {
   _stillPath = props.stillPath;
@@ -23,9 +32,8 @@ export const HoverGif: React.VFC<HoverGifProps> = (props) => {
 
   return(
 	<div onMouseEnter={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
-		<div id="projectTitle">{props.title}</div>
+		<div className="shield" style={!isPlaying ? shieldStyle : invisibleShieldStyle}>{props.title}</div>
 		<img id="projectImg" src={isPlaying ? _gifPath : _stillPath} alt="A test gif"></img>
-		<img id="overlay" src={overlayPath}></img>
 	</div>
   );
 }

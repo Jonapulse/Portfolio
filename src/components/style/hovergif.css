@@ -1,0 +1,11 @@
+.shield {
+	position: absolute;
+	height: 250px;
+	width: 300px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 20pt;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
