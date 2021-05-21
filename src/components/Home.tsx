@@ -20,29 +20,29 @@ export const Home: React.VFC = () => (
     <P>I'm a game designer and developer in Portland, OR. For serious. I'm not from some weird cult enclave like Utah.</P>
 	<div>
 		<InteractiveLink to="/G1LightBorrower">
-		  <HoverGif stillPath="./art/testGifStill.png" gifPath="./art/testgif.gif" title="TestTitle1"> </HoverGif>
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle1"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/G2HeartburnBoulevard">
-		  <HoverGif stillPath="./art/testGifStill.png" gifPath="./art/testgif.gif" title="TestTitle2"> </HoverGif>
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle2"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/G3Pratfall">
-		  <HoverGif stillPath="./art/testGifStill.png" gifPath="./art/testgif.gif" title="TestTitle3"> </HoverGif>Pratfall
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle3"> </HoverGif>Pratfall
 		</InteractiveLink>
 	</div>
 	<br/>
 	<div>
 		<InteractiveLink to="/T13DControllerConversion">
-		  <HoverGif stillPath="./art/testGifStill.png" gifPath="./art/testgif.gif" title="TestTitle4"> </HoverGif>
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle4"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/T2LevelEditor">
-		  <HoverGif stillPath="./art/testGifStill.png" gifPath="./art/testgif.gif" title="TestTitle5"> </HoverGif>
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle5"> </HoverGif>
 		</InteractiveLink>
 		 | 
 		<InteractiveLink to="/T3HotsTracker">
-		  <HoverGif stillPath="./art/testGifStill.png" gifPath="./art/testgif.gif" title="TestTitle6"> </HoverGif>
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle6"> </HoverGif>
 		</InteractiveLink>
 	</div>
   </div>
