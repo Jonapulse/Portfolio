@@ -1,0 +1,30 @@
+.shield {
+	position: absolute;
+	height: 250px;
+	width: 300px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 20pt;
+	align-items: center;
+	display: flex;
+	opacity: 1;
+	justify-content: center;
+	transition: opacity 1s;
+}
+
+.shield:hover {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.gridItem {
+	height: 100px;
+	width: 100px;
+	padding: 10px;
+}
+
+.gridContainer {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat (3, 1fr);
+}
