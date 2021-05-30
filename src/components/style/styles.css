@@ -1,7 +1,7 @@
 .shield {
 	position: absolute;
 	height: 250px;
-	width: 300px;
+	width: 310px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
 	font-size: 20pt;
@@ -18,13 +18,13 @@
 }
 
 .gridItem {
-	height: 100px;
-	width: 100px;
-	padding: 10px;
+	flex: 0 0 310px;
+	height: 250px;
+	margin-bottom: 10px;
 }
 
 .gridContainer {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat (3, 1fr);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }

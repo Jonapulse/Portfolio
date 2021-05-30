@@ -19,7 +19,7 @@ const RepoReadmeLink: React.VFC = () => (
 export const Home: React.VFC = () => (
   <div>
     <P>I'm a game designer and developer in Portland, OR. For serious. I'm not from some weird cult enclave like Utah.</P>
-	<div className="gridContainer">
+	<table className="gridContainer">
 		<InteractiveLink to="/G1LightBorrower">
 		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle1"> </HoverGif>
 		</InteractiveLink>
@@ -27,7 +27,7 @@ export const Home: React.VFC = () => (
 		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle2"> </HoverGif>
 		</InteractiveLink>
 		<InteractiveLink to="/G3Pratfall">
-		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle3"> </HoverGif>Pratfall
+		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle3"> </HoverGif>
 		</InteractiveLink>
 		<InteractiveLink to="/T13DControllerConversion">
 		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle4"> </HoverGif>
@@ -38,6 +38,6 @@ export const Home: React.VFC = () => (
 		<InteractiveLink to="/T3HotsTracker">
 		  <HoverGif stillPath="./art/testGifStill.jpg" gifPath="./art/testgif.gif" title="TestTitle6"> </HoverGif>
 		</InteractiveLink>
-	</div>
+	</table>
   </div>
 );

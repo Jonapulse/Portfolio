@@ -27,7 +27,7 @@ const rootStyle: CSS.Properties = {
   WebkitTextSizeAdjust: 'none',
   textSizeAdjust: 'none',
 
-  maxWidth: '540px',
+  maxWidth: '1000px',
   margin: '0 auto',
   padding: '3vh 20px 12vh 20px',
 };
