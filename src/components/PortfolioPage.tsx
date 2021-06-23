@@ -28,26 +28,32 @@ export const PortfolioPage: React.VFC = () => (
 		<InteractiveLink to="/G3Pratfall">
 		  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard"> </HoverGif>
 		</InteractiveLink>
+		<a href="https://jonapulse.itch.io/pratfall">
+			<HoverGif stillPath="./art/pratfallStill.jpg" gifPath="./art/pratfallGif.gif" title="Pratfall"> </HoverGif>
+		</a>
+		<a href="https://jonapulse.itch.io/mirror-horror-test">
+			<HoverGif stillPath="./art/selfReflectionStill.jpg" gifPath="./art/selfReflectionGif.gif" title="Self-Reflection"> </HoverGif>
+		</a>
 		<a href="https://jonapulse.itch.io/fully-solid-snake">
 			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="Fully Solid Snake"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/perpetual-robot-war">
-			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="Perpetual Robot War"> </HoverGif>
+			<HoverGif stillPath="./art/prwStill.jpg" gifPath="./art/prwGif.gif" title="Perpetual Robot War"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/bugfixers">
-			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="Bug Fixers"> </HoverGif>
+			<HoverGif stillPath="./art/bugFixersStill.jpg" gifPath="./art/bugFixersGif.gif" title="Bug Fixers"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/echo-tactics">
-			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="Echo Tactics"> </HoverGif>
+			<HoverGif stillPath="./art/echoStill.jpg" gifPath="./art/echoGif.gif" title="Echo Tactics"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/moon-mining-madness">
-			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="Moon Mining Madness"> </HoverGif>
+			<HoverGif stillPath="./art/moonStill.jpg" gifPath="./art/moonGif.gif" title="Moon Mining Madness"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/city-surgeon">
-			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="City Surgeon"> </HoverGif>
+			<HoverGif stillPath="./art/cityStill.jpg" gifPath="./art/cityGif.gif" title="City Surgeon"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/sdmrpg">
-			<HoverGif stillPath="./art/fssStill.jpg" gifPath="./art/fssGif.gif" title="Super Dramatic Flash RPG"> </HoverGif>
+			<HoverGif stillPath="./art/sdmrpgStill.jpg" gifPath="./art/sdmrpgGif.gif" title="Super Dramatic Flash RPG"> </HoverGif>
 		</a>
 	</table>
   </div>
