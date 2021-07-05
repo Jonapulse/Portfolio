@@ -40,7 +40,7 @@ export const PortfolioPage: React.VFC = () => (
 		<a href="https://jonapulse.itch.io/perpetual-robot-war">
 			<HoverGif stillPath="./art/prwStill.jpg" gifPath="./art/prwGif.gif" title="Perpetual Robot War"> </HoverGif>
 		</a>
-		<a href="https://jonapulse.itch.io/bugfixers">
+		<a href="https://xandrakeart.itch.io/bugfixers">
 			<HoverGif stillPath="./art/bugFixersStill.jpg" gifPath="./art/bugFixersGif.gif" title="Bug Fixers"> </HoverGif>
 		</a>
 		<a href="https://jonapulse.itch.io/echo-tactics">

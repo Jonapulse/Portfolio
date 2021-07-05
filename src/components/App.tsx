@@ -48,14 +48,14 @@ const breadcrumbsStyle: CSS.Properties = {
 export const App: React.VFC = () => (
   <div style={rootStyle}>
     <h1 style={titleStyle}>Jonah's Really Cool Portfolio</h1>
+	<a href="mailto:jonapulse@gmail.com">jonapulse@gmail.com</a>
+	<p>Put in a succinct about that will persist here. Small, nice, up-to-date picture. And you might want to style your email with an underline.</p>
 	<div>
 		<InteractiveLink to="/"> Home </InteractiveLink>
 		|
 		<InteractiveLink to="/PortfolioPage"> Portfolio </InteractiveLink>
 		|
 		<InteractiveLink to="/Resume"> Resume </InteractiveLink>
-		|
-		<InteractiveLink to="/Contact"> Contact </InteractiveLink>
 	</div>
 
     <Switch>
