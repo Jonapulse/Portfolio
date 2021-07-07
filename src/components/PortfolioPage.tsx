@@ -22,9 +22,6 @@ export const PortfolioPage: React.VFC = () => (
 		<InteractiveLink to="/G1LightBorrower">
 		  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower"> </HoverGif>
 		</InteractiveLink>
-		<InteractiveLink to="/G2HeartburnBoulevard">
-		  <HoverGif stillPath="./art/spStill.jpg" gifPath="./art/spGif.gif" title="Square Panda"> </HoverGif>
-		</InteractiveLink>
 		<InteractiveLink to="/G3Pratfall">
 		  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard"> </HoverGif>
 		</InteractiveLink>

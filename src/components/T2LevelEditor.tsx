@@ -10,9 +10,11 @@ const pageLinkContainerStyle: CSS.Properties = {
 
 export const T2LevelEditor: React.VFC = () => (
   <div>
-    <P>I made this level editor with the hope of it being generalizable. The idea was to recycle components from stage to stage, primarily for visual reasons. And also itÅfs nice to have an editor rather than going through scenes or prefabs. (you wrote about this below too but donÅft really need to.</P>
-	<P>It used these interfaces that controlled entering and leaving.</P>
-	<P>It had this GUI that let me quickly switch between levels.</P>
-	<P>It saved data in an xml file that it parsed and unparsed because I found that more convenient than built in unity alternative, which may have been building in scenes or perhaps prefabs.</P>
+	  <p>This level editor was developed to assist in the creation of a <a href="https://jonapulse.itch.io/pratfall">3D Unity puzzle game</a> which had the unique requirement of reusing level pieces from stage to stage. The final product includedÅc</p>
+	  <ul>
+		<li>Interface code shared among game objects used in the level editor that implemented the functions needed by the editor but allowed for custom tweaking.</li>
+		<li>Functionality to help the designer, such as level-switching that could be set to immediate or to behave visually as it would in-game, player spawning for testing, and a Åesafe saveÅf functionality that walked the designer through levels before confirming to unintentional level overwriting and other mistakes.</li>
+		<li>An XML parser for loading and saving stage data</li>
+	  </ul>
   </div>
 );

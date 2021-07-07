@@ -10,15 +10,14 @@ const pageLinkContainerStyle: CSS.Properties = {
 
 export const G2HeartburnBoulevard: React.VFC = () => (
   <div>
-	<P>Square Panda is a Sunnyvale-based Educational Games startup for which I developed software in 2017 and 2018. I joined the team a few months before the initial release of 'Squareland', a hub world players could explore and customize that was used to navigate between learning minigames.</P>
-	<P>While there, I...</P>
+	<p>Square Panda is a Sunnyvale-based Educational Games startup for which I developed software in 2017 and 2018. I joined the team a few months before the initial release of 'Squareland', a hub world players could explore and customize that was used to navigate between learning minigames. While there, I...</p>
 	<ul>
 		<li>From day one, built prototypes for minigames and developed them into their final release versions.</li>
-		<li>Worked with a multinational team to integrate art and production code, helping to maintain consistency across the work of multiple teams.</li>
-		<li>Worked with the design lead to brainstorm, develop, and pitch new concepts for minigames.</li>
+		<li>Worked with a multinational team to integrate art and production code, helping to maintain consistency across the work of multiple departments.</li>
+		<li>Collaborated with the design lead to brainstorm, develop, and pitch new concepts for minigames.</li>
 		<li>Observed live playtests and derived recommendations based on them.</li>
-		<img id='concept_art' src='/art/testGifStill.png'/>
-		<li>Source Control, agile development, stand-ups [I could make this one a little funnier]</li>
+		<li>Participated in Agile development, evaluating and assigning tasks for sprints, and reporting in daily stand-ups.</li>
+		<li>Prepared, compiled, and deployed new iOS and Android builds for development and release branches.</li>
 	</ul>
   </div>
 );
