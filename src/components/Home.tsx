@@ -19,7 +19,7 @@ const RepoReadmeLink: React.VFC = () => (
 export const Home: React.VFC = () => (
   <div>
 	<div className="aboutMeContainer">
-		<img className="mePicture" src="./art/portrait.png"></img>
+		<img className="mePicture" src="./art/portrait.jpg"></img>
 		<p className="aboutMe">Howdy. <br></br> I'm a game developer who's spent the last several years traveling the Pacific Northwest, working in industry and releasing my own projects. On the weekends I like to spend time gardening and cooking, both mature hobbies that my younger self would see as signs of my impending mortality. Still, garden tomatoes are nice.</p>
 	</div>
 	<div>
