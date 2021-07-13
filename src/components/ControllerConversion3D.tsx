@@ -8,7 +8,7 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-export const T13DControllerConversion: React.VFC = () => (
+export const ControllerConversion3D: React.VFC = () => (
   <div>
 	  [Image of the controller flipping around w/ gravity] 
 	  <p>  I modified a 2D Raycasting Character Controller to function in 3D with a designer-controlled reference frame [wording.] Here’s how and why I did it.</p>

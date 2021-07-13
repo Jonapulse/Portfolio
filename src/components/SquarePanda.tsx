@@ -8,9 +8,9 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-export const G2HeartburnBoulevard: React.VFC = () => (
-  <div>
-	<p>Square Panda is a Sunnyvale-based Educational Games startup for which I developed software in 2017 and 2018. I joined the team a few months before the initial release of 'Squareland', a hub world players could explore and customize that was used to navigate between learning minigames. While there, I...</p>
+export const SquarePanda: React.VFC = () => (
+  <div className="articleContent">
+	<p className="articleTitle">Square Panda is a Sunnyvale-based Educational Games startup for which I developed software in 2017 and 2018. I joined the team a few months before the initial release of 'Squareland', a hub world players could explore and customize that was used to navigate between learning minigames. While there, I...</p>
 	<ul>
 		<li>From day one, built prototypes for minigames and developed them into their final release versions.</li>
 		<li>Worked with a multinational team to integrate art and production code, helping to maintain consistency across the work of multiple departments.</li>

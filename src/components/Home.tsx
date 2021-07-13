@@ -26,23 +26,23 @@ export const Home: React.VFC = () => (
 		
 		<table className="gridContainer">
 			<p className="projectLabels">GAMES</p>
-			<InteractiveLink to="/G1LightBorrower">
+			<InteractiveLink to="/LightBorrower">
 			  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower"> </HoverGif>
 			</InteractiveLink>
-			<InteractiveLink to="/G2HeartburnBoulevard">
+			<InteractiveLink to="/SquarePanda">
 			  <HoverGif stillPath="./art/spStill.jpg" gifPath="./art/spGif.gif" title="Square Panda"> </HoverGif>
 			</InteractiveLink>
-			<InteractiveLink to="/G3Pratfall">
+			<InteractiveLink to="/HeartburnBoulevard">
 			  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard"> </HoverGif>
 			</InteractiveLink>
 			<p className="projectLabels">TOOLS</p>
-			<InteractiveLink to="/T13DControllerConversion">
+			<InteractiveLink to="/ControllerConversion3D">
 			  <HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller"> </HoverGif>
 			</InteractiveLink>
-			<InteractiveLink to="/T2LevelEditor">
+			<InteractiveLink to="/LevelEditor">
 			  <HoverGif stillPath="./art/levelEditorStill.jpg" gifPath="./art/levelEditorGif.gif" title="Level Editor"> </HoverGif>
 			</InteractiveLink>
-			<InteractiveLink to="/T3HotsTracker">
+			<InteractiveLink to="/HotsCoach">
 			  <HoverGif stillPath="./art/hotsCoachStill.jpg" gifPath="./art/hotsCoachGif.gif" title="HotsCoach"> </HoverGif>
 			</InteractiveLink>
 		</table>

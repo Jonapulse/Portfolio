@@ -8,8 +8,8 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-export const G3Pratfall: React.VFC = () => (
-  <div>
+export const HeartburnBoulevard: React.VFC = () => (
+  <div className="articleContent">
     <p>Heartburn Boulevard is a 2D puzzle platformer set in a cruel, dirty world inspired by film noir and the human gut biome. It explores the mechanic of allowing the player, a sentient E. Coli bacteria, to split into two avatars with mirrored movement. I developed it as a short (~30 minutes) webgame in Unity. </p> 
 	[image of the cityscape with the blinking anus]
 	<p>To make the project, I...</p>

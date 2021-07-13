@@ -19,10 +19,10 @@ export const PortfolioPage: React.VFC = () => (
   <div>
     <div className="portfolioTitle">Portfolio</div>
 	<table className="gridContainer">
-		<InteractiveLink to="/G1LightBorrower">
+		<InteractiveLink to="/LightBorrower">
 		  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower"> </HoverGif>
 		</InteractiveLink>
-		<InteractiveLink to="/G3Pratfall">
+		<InteractiveLink to="/HeartburnBoulevard">
 		  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard"> </HoverGif>
 		</InteractiveLink>
 		<a href="https://jonapulse.itch.io/pratfall">

@@ -3,12 +3,12 @@ import * as CSS from 'csstype';
 import { InteractiveLink } from './InteractiveLink';
 import { Switch, Route } from 'react-router-dom';
 import { Home } from './Home';
-import { G1LightBorrower } from './G1LightBorrower';
-import { G2HeartburnBoulevard } from './G2HeartburnBoulevard';
-import { G3Pratfall } from './G3Pratfall';
-import { T13DControllerConversion } from './T13DControllerConversion';
-import { T2LevelEditor } from './T2LevelEditor';
-import { T3HotsTracker } from './T3HotsTracker';
+import { LightBorrower } from './LightBorrower';
+import { SquarePanda } from './SquarePanda';
+import { HeartburnBoulevard } from './HeartburnBoulevard';
+import { ControllerConversion3D } from './ControllerConversion3D';
+import { LevelEditor } from './LevelEditor';
+import { HotsCoach } from './HotsCoach';
 import { PortfolioPage } from './PortfolioPage';
 import { Resume } from './Resume';
 import { Contact } from './Contact';
@@ -43,7 +43,7 @@ const breadcrumbsStyle: CSS.Properties = {
 export const App: React.VFC = () => (
   <div style={rootStyle}>
     <h1 className="titleStyle">Jonah Pulsipher</h1>
-	<div className="emailLink"><a className="emailLink" href="mailto:jonapulse@gmail.com"><u>jonapulse@gmail.com</u></a></div>
+	<div className="emailLink"><a className="emailLink" href="mailto:jonapulse@gmail.com">jonapulse@gmail.com</a></div>
 	<div className="siteLinks">
 		<InteractiveLink to="/"> Home </InteractiveLink>
 		|
@@ -54,12 +54,12 @@ export const App: React.VFC = () => (
 
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/G1LightBorrower" component={G1LightBorrower} />
-      <Route exact path="/G2HeartburnBoulevard" component={G2HeartburnBoulevard} />
-	  <Route exact path="/G3Pratfall" component={G3Pratfall} />
-	  <Route exact path="/T13DControllerConversion" component={T13DControllerConversion} />
-      <Route exact path="/T2LevelEditor" component={T2LevelEditor} />
-	  <Route exact path="/T3HotsTracker" component={T3HotsTracker} />
+      <Route exact path="/LightBorrower" component={LightBorrower} />
+      <Route exact path="/SquarePanda" component={SquarePanda} />
+	  <Route exact path="/HeartburnBoulevard" component={HeartburnBoulevard} />
+	  <Route exact path="/ControllerConversion3D" component={ControllerConversion3D} />
+      <Route exact path="/LevelEditor" component={LevelEditor} />
+	  <Route exact path="/HotsCoach" component={HotsCoach} />
 	  <Route exact path="/PortfolioPage" component={PortfolioPage} />
 	  <Route exact path="/Resume" component={Resume} />
 	  <Route exact path="/Contact" component={Contact} />

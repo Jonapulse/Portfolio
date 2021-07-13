@@ -8,7 +8,7 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-export const T3HotsTracker: React.VFC = () => (
+export const HotsCoach: React.VFC = () => (
   <div>
 	<p>HotsCoach is a support tool built in Python for players of one of the various competing MOBA games that were dominating gaming in 2016, that harvests player data from an online repository, predicts win outcomes based on the 	&ldquo;Champions&rdquo; selected by various players, and recommends team compositions. My work on the tool included...</p>
 	<ul>

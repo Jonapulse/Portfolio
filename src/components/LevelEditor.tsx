@@ -8,7 +8,7 @@ const pageLinkContainerStyle: CSS.Properties = {
   margin: '1vh 0',
 };
 
-export const T2LevelEditor: React.VFC = () => (
+export const LevelEditor: React.VFC = () => (
   <div>
 	  <p>This level editor was developed to assist in the creation of a <a href="https://jonapulse.itch.io/pratfall">3D Unity puzzle game</a> which had the unique requirement of reusing level pieces from stage to stage. The final product includedÅc</p>
 	  <ul>
