@@ -19,22 +19,17 @@ import { PageNotFound } from './PageNotFound';
 import { Breadcrumbs } from './Breadcrumbs';
 
 const rootStyle: CSS.Properties = {
-  fontFamily: 'helvetica, sans-serif',
-  fontWeight: 300,
-  fontSize: '16px',
-  letterSpacing: '0.025em',
-  boxSizing: 'border-box',
-  WebkitTextSizeAdjust: 'none',
-  textSizeAdjust: 'none',
+ // fontFamily: 'helvetica, sans-serif',
+ // fontWeight: 300,
+ // fontSize: '16px',
+ // letterSpacing: '0.025em',
+ // boxSizing: 'border-box',
+  //WebkitTextSizeAdjust: 'none',
+  //textSizeAdjust: 'none',
 
   maxWidth: '1000px',
   margin: '0 auto',
   padding: '3vh 20px 12vh 20px',
-};
-
-const titleStyle: CSS.Properties = {
-  fontSize: '20px',
-  marginBottom: '0.5vh',
 };
 
 const repoLinkStyle: CSS.Properties = {
@@ -47,10 +42,9 @@ const breadcrumbsStyle: CSS.Properties = {
 
 export const App: React.VFC = () => (
   <div style={rootStyle}>
-    <h1 style={titleStyle}>Jonah's Really Cool Portfolio *UNDER CONSTRUCTION*</h1>
-	<a href="mailto:jonapulse@gmail.com">jonapulse@gmail.com</a>
-	<p>Put in a succinct about that will persist here. Small, nice, up-to-date picture. And you might want to style your email with an underline.</p>
-	<div>
+    <h1 className="titleStyle">Jonah Pulsipher</h1>
+	<div className="emailLink"><a className="emailLink" href="mailto:jonapulse@gmail.com"><u>jonapulse@gmail.com</u></a></div>
+	<div className="siteLinks">
 		<InteractiveLink to="/"> Home </InteractiveLink>
 		|
 		<InteractiveLink to="/PortfolioPage"> Portfolio </InteractiveLink>

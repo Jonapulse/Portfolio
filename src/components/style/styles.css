@@ -1,3 +1,73 @@
+body {
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.titleStyle {
+	font-size: 30px;
+	margin-bottom: 0.5vh;
+	text-align: center;
+}
+
+.articleTitle {
+	font-size: 25px;
+	margin-bottom: 1.5vh;
+}
+
+.p {
+	margin-bottom: 1vh;
+}
+
+.bulletedList{
+	list-style-type: circle;
+	margin-left: 2vh;
+}
+
+.emailLink {
+	text-align: center;
+	margin-bottom: 1vh;
+}
+
+.projectLabels {
+	width: 15px;
+	font-size: 25px;
+	margin-right: 3vh;
+	height: 0px;
+	word-wrap: break-word;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.siteLinks {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 1.5vh;
+}
+
+.aboutMeContainer{
+	background: #f1fcff;
+	height: 165px;
+	margin-left: 52px;
+	margin-bottom: 25px;
+}
+
+.mePicture{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 45px;
+	width: 125px;
+	height: 125px;
+}
+
+.aboutMe {
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: left;
+	width: 650px;
+	margin-bottom: 2.5vh;
+}
+
 .shield {
 	position: absolute;
 	height: 250px;

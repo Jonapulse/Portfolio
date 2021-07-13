@@ -10,19 +10,20 @@ const pageLinkContainerStyle: CSS.Properties = {
 
 export const G1LightBorrower: React.VFC = () => (
   <div>
+	<p className="articleTitle">Light Borrower</p>
 	<p>Light Borrower is a 2D story and puzzle game made in Unity. I began development while a student in the RIT Game Design & Development program, and was awarded funding by RIT’s MAGIC Spell Studios to continue the project. A year later, after recruiting a team, the game was released on the steam marketplace. While leading the project, I…</p>
 	<ul>
-		<li>Developed and refined the core concept through several prototypes (and wrote about it below, if you’re curious[link]).</li>
-		<li>Architected C# code, including a system that supported seamless transitions between story, hub worlds, and puzzles, as well as a system used for puzzles that calculated 2D lighting in real-time.</li>
-		<li>Managed the team on weekly remote meetings…</li>
-		<li>
+		<li className="bulletedList">Developed and refined the core concept through several prototypes (and wrote about it below, if you’re curious[link]).</li>
+		<li className="bulletedList">Architected C# code, including a system that supported seamless transitions between story, hub worlds, and puzzles, as well as a system used for puzzles that calculated 2D lighting in real-time.</li>
+		<li className="bulletedList">Managed the team on weekly remote meetings…</li>
+		<li className="bulletedList">
 			<ul>
-				<li>collaborating with programmer Akshay Rachapudi[link] on feature development and adjusting task loads to hit milestones</li>
-				<li>working with composer Garret Reynolds[link] to find the right ‘feel’ for the music and use Wwise audio software to a implement a score with randomized, looping elements</li>
-				<li>and partnering with illustrator Manon Hale[link] to design and render key game assets.</li>
+				<li className="bulletedList">collaborating with programmer Akshay Rachapudi[link] on feature development and adjusting task loads to hit milestones</li>
+				<li className="bulletedList">working with composer Garret Reynolds[link] to find the right ‘feel’ for the music and use Wwise audio software to a implement a score with randomized, looping elements</li>
+				<li className="bulletedList">and partnering with illustrator Manon Hale[link] to design and render key game assets.</li>
 			</ul>
 		</li>
-		<li>Wrote and integrated a story told through found documents written by four off-screen characters.</li>
+		<li className="bulletedList">Wrote and integrated a story told through found documents written by four off-screen characters.</li>
 	</ul>
 	<p>Prototyping Light Borrower</p>
 	<p>Light Borrower happened because I wanted to tell a story that captured my own experience of being raised with a grand, comforting view of what the world was, then having that gradually fall apart when exposed to reality. You play as a young woman raised in an underground bunker by a tight-knit religious community that were saved from the apocalypse. Only they were wrong about the apocalypse… the player discovers this along the course of the game. When I prototyped the central game mechanic, I wanted something that resonated with that story: truth-seeking, being wrong, myth vs reality.</p>
