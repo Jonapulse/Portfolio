@@ -62,10 +62,16 @@ body {
 	position: absolute;
 	margin-left: 250px;
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	width: 650px;
 	margin-bottom: 2.5vh;
+}
+
+.portfolioTitle {
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 1.5vh;
 }
 
 .shield {
@@ -76,6 +82,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 	font-size: 20pt;
 	align-items: center;
+	text-align: center;
 	display: flex;
 	opacity: 1;
 	justify-content: center;
@@ -97,4 +104,12 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.resumePage {
+	text-align: center;
+}
+
+.p{
+	font-size: 25px;
 }
