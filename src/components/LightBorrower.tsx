@@ -11,8 +11,8 @@ const pageLinkContainerStyle: CSS.Properties = {
 
 export const LightBorrower: React.VFC = () => (
   <div className="articleContent">
-	<p className="articleTitle">Light Borrower</p>
 	<div className="articlePictureCenter"><HoverGifArticle stillPath="./art/doorClosing.jpg" gifPath="./art/doorClosing.gif" subTitle="The trial begins"> </HoverGifArticle></div>
+	<p className="articleTitle">Light Borrower</p>
 	<div className="articleIntro">
 		<p><a className="emailLink" href="https://jonapulse.itch.io/light-borrower">Light Borrower</a> is a 2D story and puzzle game made in Unity. I began development while studying in the RIT Game Design & Development program, and was awarded funding by RIT’s MAGIC Spell Studios to continue the project. A year later, after recruiting a team, the game was released to the steam marketplace. While leading the project, I…</p>
 		<ul>
