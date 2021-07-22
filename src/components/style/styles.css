@@ -102,6 +102,22 @@ li{
 	transition: opacity 1s;
 }
 
+.gridLabel{
+	width: 40px;
+	background-size: contain;
+}
+
+.gridLabel:before, .gridLabel_before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.label{
+	vertical-align: middle;
+}
+
 .gridItem {
 	flex: 0 0 310px;
 	height: 250px;
@@ -149,13 +165,11 @@ li{
 .articlePictureLeft{
 	float: left; 
 	margin-right: 1.5vh;
-	margin-bottom: 1.5vh;
 }
 
 .articlePictureRight{
 	float: right; 
 	margin-left: 1.5vh;
-	margin-bottom: 1.5vh;
 }
 
 .articlePictureCenter{
@@ -166,5 +180,19 @@ li{
 .subTitle{
 	font-size: 14px;
 	text-align: center;
-	margin-bottom: 1.5vh;
+	margin-bottom: 1vh;
+}
+
+.shieldArticle{
+	position: absolute;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.15);
+	font-size: 20pt;
+	align-items: center;
+	text-align: center;
+	bottom: 0;
+	display: flex;
+	opacity: 1;
+	justify-content: center;
+	transition: opacity 1s;
 }

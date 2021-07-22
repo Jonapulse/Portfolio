@@ -25,7 +25,7 @@ export const Home: React.VFC = () => (
 	<div>
 		
 		<table className="gridContainer">
-			<p className="projectLabels">GAMES</p>
+			<div className="gridLabel"><img className="label" src="./art/gamesLabel.jpg" style={{width: '17px', height: '121px'}}></img></div>
 			<InteractiveLink to="/LightBorrower">
 			  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower"> </HoverGif>
 			</InteractiveLink>
@@ -35,7 +35,7 @@ export const Home: React.VFC = () => (
 			<InteractiveLink to="/HeartburnBoulevard">
 			  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard"> </HoverGif>
 			</InteractiveLink>
-			<p className="projectLabels">TOOLS</p>
+			<div className="gridLabel"><img className="label" src="./art/toolsLabel.jpg" style={{width: '17px', height: '123px'}}></img></div>
 			<InteractiveLink to="/ControllerConversion3D">
 			  <HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller"> </HoverGif>
 			</InteractiveLink>
