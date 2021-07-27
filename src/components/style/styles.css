@@ -103,6 +103,33 @@ li{
 	transition: opacity 1s;
 }
 
+.shieldArticle{
+	float: inherit;
+	position:absolute;
+	color: rgba(200,200,200,0.5);
+	background-color: rgba(0, 0, 0, 0.15);
+	background-size: contain;
+	font-size: 20pt;
+	align-items: center;
+	text-align: center;
+	bottom: 50px;
+	right: 0;
+	display: flex;
+	opacity: 1;
+	justify-content: center;
+	transition: opacity 1s;
+	width: inherit;
+	height: inherit;
+}
+
+.shieldArticle:hover {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.projectImg {
+}
+
 .gridLabel{
 	width: 40px;
 	background-size: contain;
@@ -163,6 +190,10 @@ li{
 	margin-bottom: 1.5vh;
 }
 
+.articlePicture{
+	position: relative;
+}
+
 .articlePictureLeft{
 	float: left; 
 	margin-right: 1.5vh;
@@ -182,18 +213,4 @@ li{
 	font-size: 14px;
 	text-align: center;
 	margin-bottom: 1vh;
-}
-
-.shieldArticle{
-	position: absolute;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.15);
-	font-size: 20pt;
-	align-items: center;
-	text-align: center;
-	bottom: 0;
-	display: flex;
-	opacity: 1;
-	justify-content: center;
-	transition: opacity 1s;
 }

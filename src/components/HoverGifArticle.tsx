@@ -23,8 +23,8 @@ export const HoverGifArticle: React.VFC<HoverGifArticleProps> = (props) => {
 
   return(
 	<div className="articlePicture" onMouseEnter={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
-		<div className="shieldArticle">Hover To Watch</div>
 		<img id="projectImg" src={isPlaying ? _gifPath : _stillPath} alt="A test gif"></img>
+		<div className="shieldArticle">Hover To Watch</div>
 		<div className="subTitle">{props.subTitle}</div>
 	</div>
   );
