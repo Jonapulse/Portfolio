@@ -36,6 +36,10 @@ li{
 	text-decoration: underline;
 }
 
+.emailLink:hover {
+	color: #2200CC;
+}
+
 .projectLabels {
 	width: 15px;
 	font-size: 25px;
@@ -178,8 +182,15 @@ li{
 	padding: 10px 10px 10px 10px;
 }
 
-.articleSubheader{
+.articleHeader{
 	font-size: 25px;
+	font-weight: bold;
+	margin-top: 4vh;
+	margin-bottom: 1.5vh;
+}
+
+.articleSubheader{
+	font-size: 20px;
 	font-weight: bold;
 	margin-top: 4vh;
 	margin-bottom: 1.5vh;
