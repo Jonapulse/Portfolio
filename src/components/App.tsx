@@ -29,7 +29,7 @@ const rootStyle: CSS.Properties = {
 
   maxWidth: '1000px',
   margin: '0 auto',
-  padding: '3vh 20px 12vh 20px',
+  padding: '3vh 20px 12vh 20px'
 };
 
 const repoLinkStyle: CSS.Properties = {

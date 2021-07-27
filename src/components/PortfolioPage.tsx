@@ -18,7 +18,7 @@ const RepoReadmeLink: React.VFC = () => (
 export const PortfolioPage: React.VFC = () => (
   <div>
     <div className="portfolioTitle">Portfolio</div>
-	<table className="gridContainer">
+	<table className="gridContainer portfolioSqueeze">
 		<InteractiveLink to="/LightBorrower">
 		  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower"> </HoverGif>
 		</InteractiveLink>

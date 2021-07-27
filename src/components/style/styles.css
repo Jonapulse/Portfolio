@@ -7,6 +7,7 @@ body {
 	line-height: 2em;
 	color: #415161;
 	overscroll-behavior: none;
+	background-color: white;
 }
 
 .titleStyle {
@@ -55,15 +56,16 @@ li{
 }
 
 .aboutMeContainer{
-	background: #f1fcff;
-	height: 165px;
+	background: #cfe7fd;
+	height: 225px;
 	margin-left: 52px;
 	margin-bottom: 25px;
+	margin-right: 4px;
 }
 
 .mePicture{
 	position: absolute;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-left: 45px;
 	width: 125px;
 	height: 125px;
@@ -151,13 +153,17 @@ li{
 .gridItem {
 	flex: 0 0 310px;
 	height: 250px;
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 }
 
 .gridContainer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.portfolioSqueeze{
+	padding: 0 22px 0 22px;
 }
 
 .resumePage {
@@ -176,7 +182,7 @@ li{
 .articleIntro{
 	font-size: 20px;
 	margin-bottom: 2.5vh;
-	background: #f1fcff;
+	background: #cfe7fd;
 	padding: 10px 10px 10px 10px;
 }
 
