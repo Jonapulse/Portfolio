@@ -43,7 +43,10 @@ const breadcrumbsStyle: CSS.Properties = {
 export const App: React.VFC = () => (
   <div style={rootStyle}>
     <h1 className="titleStyle">Jonah Pulsipher</h1>
-	<div className="emailLink"><a className="emailLink" href="mailto:jonapulse@gmail.com">jonapulse@gmail.com</a></div>
+	<div className="emailHeader">
+		<span className="jobTitle">Game Developer ~</span>
+		<a className="emailLink" href="mailto:jonapulse@gmail.com">jonapulse@gmail.com</a>
+	</div>
 	<div className="siteLinks">
 		<InteractiveLink to="/"> Home </InteractiveLink>
 		|

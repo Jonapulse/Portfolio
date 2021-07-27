@@ -39,6 +39,14 @@ li{
 	color: #2200CC;
 }
 
+.emailHeader{
+	text-align:center;
+}
+
+.jobTitle{
+margin-right: 0.7vh;
+}
+
 .projectLabels {
 	width: 15px;
 	font-size: 25px;

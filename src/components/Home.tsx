@@ -23,7 +23,6 @@ export const Home: React.VFC = () => (
 		<p className="aboutMe">Howdy. <br></br> I'm a game developer who's spent the last several years traveling the Pacific Northwest, working in industry and releasing my own projects. On the weekends I like to spend time gardening and cooking, both mature hobbies that my younger self would see as signs of my impending mortality. Still, garden tomatoes are nice.</p>
 	</div>
 	<div>
-		
 		<table className="gridContainer">
 			<div className="gridLabel"><img className="label" src="./art/gamesLabel.jpg" style={{width: '17px', height: '121px'}}></img></div>
 			<InteractiveLink to="/LightBorrower">
