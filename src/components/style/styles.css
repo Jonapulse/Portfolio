@@ -67,7 +67,7 @@ li{
 	background: #cfe7fd;
 	height: 225px;
 	margin-left: 52px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	margin-right: 4px;
 }
 
@@ -262,4 +262,16 @@ li{
 	margin-top: 5vh;
 	font-size: 12px;
 	text-align: center;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 35%;
+  position: relative;
+  height: 0;
+  left: 15%;
+}
+
+.video-responsive iframe {
+  position: absolute;
 }
