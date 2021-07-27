@@ -6,6 +6,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 2em;
 	color: #415161;
+	overscroll-behavior: none;
 }
 
 .titleStyle {
