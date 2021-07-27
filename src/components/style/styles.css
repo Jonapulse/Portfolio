@@ -207,6 +207,13 @@ li{
 
 .articlePicture{
 	position: relative;
+	background-color: #a4d4ff;
+	padding: 1vh 1vh 0 1vh;
+}
+
+.imgTweak{
+	background-color: #a4d4ff;
+	padding: 1vh 1vh 0 1vh;
 }
 
 .articlePictureLeft{

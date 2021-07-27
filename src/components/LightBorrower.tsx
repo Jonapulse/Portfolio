@@ -18,7 +18,7 @@ export const LightBorrower: React.VFC = () => (
 			<li>Developed and refined the core concept through several prototypes.</li>
 			<li>Architected C# code, including a system that supported seamless transitions between story, hub worlds, and puzzles, as well as a system used for puzzles that calculated 2D lighting in real-time.</li>
 			<li>Managed the team on weekly remote meetings…
-			<div className="articlePictureRight"><img src="./art/windowSideBySide.jpg"></img><div className="subTitle">Stained glass window. My concept, artist's rendition.</div></div>
+			<div className="articlePictureRight imgTweak"><img src="./art/windowSideBySide.jpg" style={{width: '347px', height: '300px'}}></img><div className="subTitle">Stained glass window. My concept, artist's rendition.</div></div>
 				<ul>
 					<li>collaborating with programmer <a className="emailLink" href="https://www.akshayrachapudi.com">Akshay Rachapudi</a> on feature development and adjusting task loads to hit milestones</li>
 					<li>working with composer <a className="emailLink" href="https://www.garretreynolds.com">Garret Reynolds</a> to find the right ‘feel’ for the music and use Wwise audio software to a implement a score with randomized, looping elements</li>
