@@ -1,4 +1,4 @@
-import * as React from 'react';
+﻿import * as React from 'react';
 import * as CSS from 'csstype';
 import { InteractiveLink } from './InteractiveLink';
 import { Switch, Route } from 'react-router-dom';
@@ -64,5 +64,7 @@ export const App: React.VFC = () => (
 	  <Route exact path="/Resume" component={Resume} />
 	  <Route exact path="/Contact" component={Contact} />
     </Switch>
+
+	<div className="copyright">© 2021 Jonah Pulsipher</div>
   </div>
 );
