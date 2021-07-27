@@ -44,7 +44,7 @@ li{
 }
 
 .jobTitle{
-margin-right: 0.7vh;
+	margin-right: 0.7vh;
 }
 
 .projectLabels {
@@ -92,7 +92,16 @@ margin-right: 0.7vh;
 .portfolioTitle {
 	font-size: 25px;
 	text-align: center;
-	margin-bottom: 1.5vh;
+	vertical-align: middle;
+	margin-bottom: 1vh;
+	margin-left: 26px;
+	width: 947px;
+	height: 100px;
+	background-color: #cfe7fd;
+}
+
+.portfolioTitleText {
+	padding-top: 35px;
 }
 
 .shield {
@@ -178,6 +187,10 @@ margin-right: 0.7vh;
 	text-align: center;
 }
 
+.resumeImg{
+	border: 1px solid black;
+}
+
 .articleContent{
 	text-align: left;
 }
@@ -215,11 +228,11 @@ margin-right: 0.7vh;
 
 .articlePicture{
 	position: relative;
-	background-color: #a4d4ff;
+	background-color: #cfe7fd;
 	padding: 1vh 1vh 0 1vh;
 }
 
-.imgTweak{
+.introPictureBackground{
 	background-color: #a4d4ff;
 	padding: 1vh 1vh 0 1vh;
 }
