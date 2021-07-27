@@ -237,6 +237,10 @@ li{
 	padding: 1vh 1vh 0 1vh;
 }
 
+.introOverride > .articlePicture{
+	background-color: #a4d4ff;
+}
+
 .articlePictureLeft{
 	float: left; 
 	margin-right: 1.5vh;
