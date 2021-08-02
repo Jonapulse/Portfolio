@@ -124,28 +124,27 @@ li{
 	transition: opacity 1s;
 }
 
+.articlePicture:hover> .shieldArticle {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
 .shieldArticle{
 	float: inherit;
 	position:absolute;
 	color: rgba(200,200,200,0.5);
-	background-color: rgba(0, 0, 0, 0.15);
 	background-size: contain;
 	font-size: 20pt;
 	align-items: center;
 	text-align: center;
-	bottom: 50px;
-	right: 0;
+	top: 280px;
+	left: 0;
 	display: flex;
 	opacity: 1;
 	justify-content: center;
 	transition: opacity 1s;
 	width: inherit;
 	height: inherit;
-}
-
-.shieldArticle:hover {
-	opacity: 0;
-	transition: opacity 1s;
 }
 
 .projectImg {
@@ -229,12 +228,13 @@ li{
 .articlePicture{
 	position: relative;
 	background-color: #cfe7fd;
-	padding: 1vh 1vh 0 1vh;
+	padding: 1.5vh 1.5vh 0 1.5vh;
 }
 
 .introPictureBackground{
 	background-color: #a4d4ff;
-	padding: 1vh 1vh 0 1vh;
+	padding: 1.5vh 1.5vh 0 1.5vh;
+	text-align: center;
 }
 
 .introOverride > .articlePicture{
