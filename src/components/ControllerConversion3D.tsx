@@ -12,10 +12,10 @@ const pageLinkContainerStyle: CSS.Properties = {
 
 export const ControllerConversion3D: React.VFC = () => (
   <div className="articleContent">
-	  <p className="articleTitle">3D Character Controller</p>
 	  <p className="articleIntro">
+		<p className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>3D Character Controller</p> <img src="./art/3DRayBanner.jpg"></img></p>
 		<p>I adapted a 2D raycasting-based character controller to function in 3D as a replacement for the built-in physics provided within Unity. The resulting tool was a simplified character controller that reliably handled movement and collision, while also allowing the developer to set gravity to arbitrary values during runtime. Below, I write about how and why I did it.</p>
-		<div className="articlePictureCenter"><HoverGifArticle stillPath="./art/turnCycleFull.jpg" gifPath="./art/turnCycleFull.gif" subTitle="Changing gravity in a test environment"> </HoverGifArticle></div>
+		<div className="articlePictureCenter introOverride"><HoverGifArticle stillPath="./art/turnCycleFull.jpg" gifPath="./art/turnCycleFull.gif" subTitle="Changing gravity in a test environment"> </HoverGifArticle></div>
 	  </p>
 	  <p className="articleHeader">How and why</p>
 	  <p className="articleParagraph">While developing a <a className="emailLink" href="https://www.jonahpulsipher.com/HeartburnBoulevard">2D platformer</a>, I had run into issues controlling the player avatar with Unity’s built-in physics. Summed up, Unity's physics solution offered a wide array of functionality that wasn’t necessary for my project, and sometimes simple tasks like fine-tuned movement or jumping against walls (the player would stick) required complex work-arounds to function as intended. Ultimately, I replaced the character controller by adapting a <a className="emailLink" href="https://github.com/SebLague/2DPlatformer-Tutorial">3rd party 2D controller</a> built around raycasting, and the result was figuratively and literally game-changing. It was simpler to implement, simpler to modify, and avoided the problems that I had encountered earlier. </p>
