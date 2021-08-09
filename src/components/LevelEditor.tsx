@@ -17,7 +17,7 @@ export const LevelEditor: React.VFC = () => (
 		<p>This level editor was developed to assist in the creation of a <a href="https://jonapulse.itch.io/pratfall">3D Unity puzzle game</a> which had the unique requirement of reusing level pieces from stage to stage. The final product included...</p>
 		<ul>
 			<li>Interface code shared among game objects used in the level editor that implemented the functions needed by the editor but allowed for class-specific tweaking.</li>
-			<li>Functionality to help the designer, such as a system to switch level that could act immediately or to perform the intended in-game visual transition, player spawning for testing, and 'safe save' functionality that walked the designer through levels before saving to avoid unintentional level overwriting and other mistakes.</li>
+			<li>Functionality to help the designer, such as a system to switch levels that could either act immediately or perform the in-game visual transition, player spawning for testing, and 'safe save' functionality that walked the designer through levels before saving to avoid unintentional level overwriting and other mistakes.</li>
 			<li>An XML parser for loading and saving stage data.</li>
 		</ul>
 		<div className="articlePictureCenter introOverride"><HoverGifArticle stillPath="./art/leLevelTransition.jpg" gifPath="./art/leLevelTransition.gif" subTitle="In-game transition"> </HoverGifArticle></div>
