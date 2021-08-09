@@ -12,7 +12,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 export const HotsCoach: React.VFC = () => (
   <div>
 	<div className="articleIntro">
-		<p className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Hots Coach</p> <img src="./art/hcBanner.jpg"></img></p>
+		<div className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Hots Coach</p> <img src="./art/hcBanner.jpg"></img></div>
 		<p>HotsCoach is a support tool built in Python for use by players of one of the competing MOBA games that were dominating gaming in 2016.  It harvests player data from an online repository, predicts win outcomes based on the 	&ldquo;Champions&rdquo; selected by various players, and recommends team compositions. My work on the tool included...</p>
 		<ul>
 			<li>Collecting and parsing pages of data from a website</li>

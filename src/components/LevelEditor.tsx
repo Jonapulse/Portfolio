@@ -12,7 +12,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 export const LevelEditor: React.VFC = () => (
   <div className="articleContent">
 	<div className="articleIntro">
-		<p className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Level Editor</p> <img src="./art/leBanner.jpg"></img></p>
+		<div className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Level Editor</p> <img src="./art/leBanner.jpg"></img></div>
 		<div className="articlePictureCenter introOverride"><HoverGifArticle stillPath="./art/leLoadAndAdd.jpg" gifPath="./art/leLoadAndAdd.gif" subTitle="Loading and navigating levels"> </HoverGifArticle></div>
 		<p>This level editor was developed to assist in the creation of a <a href="https://jonapulse.itch.io/pratfall">3D Unity puzzle game</a> which had the unique requirement of reusing level pieces from stage to stage. The final product included...</p>
 		<ul>

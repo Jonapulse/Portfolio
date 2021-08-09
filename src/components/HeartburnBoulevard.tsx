@@ -12,7 +12,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 export const HeartburnBoulevard: React.VFC = () => (
   <div className="articleContent">
 	<div className="articleIntro">
-		<p className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Heartburn Boulevard</p> <img src="./art/hbBanner.jpg"></img></p>
+		<div className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Heartburn Boulevard</p> <img src="./art/hbBanner.jpg"></img></div>
 		<p>Heartburn Boulevard is a 2D puzzle platformer developed in Unity, set in a rundown city inspired by film noir and the human gut biome. It is built around the mechanic of allowing the player to split into two avatars with mirrored movement. To make the project, I... </p> 
 		<div className="articlePictureRight introOverride"><HoverGifArticle stillPath="./art/hbIntro.jpg" gifPath="./art/hbIntro.gif" subTitle="Midnight, in the bowels of the city"> </HoverGifArticle></div>
 		<ul>

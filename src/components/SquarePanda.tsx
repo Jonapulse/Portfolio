@@ -12,7 +12,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 export const SquarePanda: React.VFC = () => (
   <div className="articleContent">
 	<div className="articleIntro">
-		<p className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Square Panda</p> <img src="./art/squareBanner.jpg"></img></p>
+		<div className="articleTitle" style={{position: 'relative'}}><p style={{position: 'absolute', left:'30px', top: '30px', color: 'black'}}>Square Panda</p> <img src="./art/squareBanner.jpg"></img></div>
 		<p>Square Panda is a Sunnyvale-based Educational Games startup for which I developed software in 2017 and 2018. I was brought on to help complete the initial release of 'Squareland', a customizable hub world that players used to travel between learning minigames. While there, I...</p>
 		<ul>
 			<li>From day one, built prototypes for minigames, later developing them into their final release versions.</li>
