@@ -124,6 +124,15 @@ li{
 	transition: opacity 1s;
 }
 
+.hoverGifTitle{
+	top: 100px;
+}
+
+.hoverGifSubtitle{
+	font-size: 16px;
+	width:300px;
+}
+
 .articlePicture:hover> .shieldArticle {
 	opacity: 0;
 	transition: opacity 1s;

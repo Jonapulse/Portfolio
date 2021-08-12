@@ -26,23 +26,23 @@ export const Home: React.VFC = () => (
 		<table className="gridContainer">
 			<div className="gridLabel"><img className="label" src="./art/gamesLabel.jpg" style={{width: '17px', height: '121px'}}></img></div>
 			<InteractiveLink to="/LightBorrower">
-			  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower"> </HoverGif>
+			  <HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower" subtitle="Game Lead - Unity"> </HoverGif>
 			</InteractiveLink>
 			<InteractiveLink to="/SquarePanda">
-			  <HoverGif stillPath="./art/spStill.jpg" gifPath="./art/spGif.gif" title="Square Panda"> </HoverGif>
+			  <HoverGif stillPath="./art/spStill.jpg" gifPath="./art/spGif.gif" title="Square Panda" subtitle="Developer - Mobile"> </HoverGif>
 			</InteractiveLink>
 			<InteractiveLink to="/HeartburnBoulevard">
-			  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard"> </HoverGif>
+			  <HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard" subtitle="Platformer Physics - Web"> </HoverGif>
 			</InteractiveLink>
 			<div className="gridLabel"><img className="label" src="./art/toolsLabel.jpg" style={{width: '17px', height: '123px'}}></img></div>
 			<InteractiveLink to="/ControllerConversion3D">
-			  <HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller"> </HoverGif>
+			  <HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller" subtitle="Physics - Unity"> </HoverGif>
 			</InteractiveLink>
 			<InteractiveLink to="/LevelEditor">
-			  <HoverGif stillPath="./art/levelEditorStill.jpg" gifPath="./art/levelEditorGif.gif" title="Level Editor"> </HoverGif>
+			  <HoverGif stillPath="./art/levelEditorStill.jpg" gifPath="./art/levelEditorGif.gif" title="Level Editor" subtitle="Designer Tools - Unity"> </HoverGif>
 			</InteractiveLink>
 			<InteractiveLink to="/HotsCoach">
-			  <HoverGif stillPath="./art/hotsCoachStill.jpg" gifPath="./art/hotsCoachGif.gif" title="HotsCoach"> </HoverGif>
+			  <HoverGif stillPath="./art/hotsCoachStill.jpg" gifPath="./art/hotsCoachGif.gif" title="HotsCoach" subtitle="Data Processing - Python"> </HoverGif>
 			</InteractiveLink>
 		</table>
 	</div>

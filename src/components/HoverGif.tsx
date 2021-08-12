@@ -13,6 +13,7 @@ type HoverGifProps = {
 	stillPath: string;
 	gifPath: string;
 	title: string;
+	subtitle: string;
 };
 
 export const HoverGif: React.VFC<HoverGifProps> = (props) => {
@@ -23,7 +24,7 @@ export const HoverGif: React.VFC<HoverGifProps> = (props) => {
 
   return(
 	<div className="gridItem" onMouseEnter={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
-		<div className="shield" >{props.title}</div>
+		<div className="shield" ><div className="hoverGifTitle">{props.title}<div className="hoverGifSubtitle">{props.subtitle}</div></div></div>
 		<img id="projectImg" src={isPlaying ? _gifPath : _stillPath} alt="A test gif"></img>
 	</div>
   );
