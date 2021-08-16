@@ -16,7 +16,7 @@ const RepoReadmeLink: React.VFC = () => (
 
 export const Resume: React.VFC = () => (
   <div className="resumePage">
-	<a href="./art/Resume21.pdf">
+	<a href="./art/resume21.pdf">
 		<img className="resumeImg" src="./art/resumeImg2.jpg"></img>
 	</a>
   </div>
