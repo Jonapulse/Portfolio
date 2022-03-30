@@ -20,7 +20,7 @@ export const Home: React.VFC = () => (
   <div>
 	<div className="aboutMeContainer">
 		<img className="mePicture" src="./art/portrait.jpg"></img>
-		<p className="aboutMe">Howdy. <br></br> I'm a game developer who's spent the last several years traveling the Pacific Northwest, working in industry and releasing my own projects. On the weekends I like to spend time gardening and cooking, both mature hobbies that my younger self would see as signs of my impending mortality. Still, garden tomatoes are nice.</p>
+		<p className="aboutMe">Howdy. <br></br> I'm a game developer who's spent the last several years traveling the Pacific Northwest, working in industry and releasing my own projects. On weekends I like to spend time gardening and cooking, both mature, adult hobbies that my younger self would see as signs of impending mortality. Every day we take another step closer to the end, and I'd love to spend that time working for you!</p>
 	</div>
 	<div>
 		<table className="gridContainer">
