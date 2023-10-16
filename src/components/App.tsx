@@ -19,13 +19,6 @@ import { PageNotFound } from './PageNotFound';
 import { Breadcrumbs } from './Breadcrumbs';
 
 const rootStyle: CSS.Properties = {
- // fontFamily: 'helvetica, sans-serif',
- // fontWeight: 300,
- // fontSize: '16px',
- // letterSpacing: '0.025em',
- // boxSizing: 'border-box',
-  //WebkitTextSizeAdjust: 'none',
-  //textSizeAdjust: 'none',
 
   maxWidth: '1000px',
   margin: '0 auto',
@@ -42,6 +35,7 @@ const breadcrumbsStyle: CSS.Properties = {
 
 export const App: React.VFC = () => (
   <div style={rootStyle}>
+		{'<!-- Comment -->'}
     <h1 className="titleStyle">Jonah Pulsipher</h1>
 	<div className="emailHeader">
 		<span className="jobTitle">Game Developer ~</span>
