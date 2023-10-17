@@ -17,6 +17,7 @@ import { ExampleTwoDeepComponent } from './ExampleTwoDeepComponent';
 import { SitemapLinkGenerator } from './SitemapLinkGenerator';
 import { PageNotFound } from './PageNotFound';
 import { Breadcrumbs } from './Breadcrumbs';
+import TagManager from 'react-gtm-module'
 
 const rootStyle: CSS.Properties = {
 
@@ -33,9 +34,14 @@ const breadcrumbsStyle: CSS.Properties = {
   margin: '3vh 0',
 };
 
+const tagManagerArgs = {
+	gtmId: 'GTM-T28KQHLZ'
+}
+
+TagManager.initialize(tagManagerArgs)
+
 export const App: React.VFC = () => (
   <div style={rootStyle}>
-		{'<!-- Comment -->'}
     <h1 className="titleStyle">Jonah Pulsipher</h1>
 	<div className="emailHeader">
 		<span className="jobTitle">Game Developer ~</span>
