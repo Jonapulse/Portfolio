@@ -17,7 +17,6 @@ import { ExampleTwoDeepComponent } from './ExampleTwoDeepComponent';
 import { SitemapLinkGenerator } from './SitemapLinkGenerator';
 import { PageNotFound } from './PageNotFound';
 import { Breadcrumbs } from './Breadcrumbs';
-import TagManager from 'react-gtm-module'
 
 const rootStyle: CSS.Properties = {
 
@@ -37,8 +36,6 @@ const breadcrumbsStyle: CSS.Properties = {
 const tagManagerArgs = {
 	gtmId: 'GTM-T28KQHLZ'
 }
-
-TagManager.initialize(tagManagerArgs)
 
 export const App: React.VFC = () => (
   <div style={rootStyle}>

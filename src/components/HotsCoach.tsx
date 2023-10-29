@@ -3,24 +3,13 @@ import * as CSS from 'csstype';
 import { InteractiveLink } from './InteractiveLink';
 import { Code, P } from './UI';
 import { HoverGifArticle } from './HoverGifArticle';
-import TagManager from 'react-gtm-module';
 
 const pageLinkContainerStyle: CSS.Properties = {
   display: 'block',
   margin: '1vh 0',
 };
 
-const tagManagerArgs = {
-	dataLayer: {
-		userId: '001',
-		userProject: 'project',
-		page: 'hotsCoach'
-	},
-	dataLayerName: 'PageDataLayer'
-}
-
 export const HotsCoach: React.VFC = () => {
-	TagManager.dataLayer(tagManagerArgs);
 	return (
 		<div>
 			<div className="articleIntro">

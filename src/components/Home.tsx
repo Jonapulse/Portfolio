@@ -4,7 +4,6 @@ import { InteractiveLink } from './InteractiveLink';
 import { Code, P } from './UI';
 import { HoverGif } from './HoverGif';
 import './style/styles.css';
-import TagManager from 'react-gtm-module';
 
 const pageLinkContainerStyle: CSS.Properties = {
   display: 'block',
@@ -17,17 +16,8 @@ const RepoReadmeLink: React.VFC = () => (
   </InteractiveLink>
 );
 
-const tagManagerArgs = {
-	dataLayer: {
-		userId: '001',
-		userProject: 'project',
-		page: 'home'
-	},
-	dataLayerName: 'PageDataLayer'
-}
 
 export const Home: React.VFC = () => {
-	TagManager.dataLayer(tagManagerArgs);
 	return (
 		<div className="homeContainer">
 			<div className="aboutMeContainer">
