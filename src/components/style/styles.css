@@ -226,6 +226,7 @@ li{
 .articleTitle{
 	font-size: 35px;
 	font-weight: bold;
+	overflow: hidden;
 }
 
 .articleIntro{
@@ -258,6 +259,8 @@ li{
 	position: relative;
 	background-color: #cfe7fd;
 	padding: 1.5vh 1.5vh 0 1.5vh;
+	flex-shrink: 1;
+	max-width: 100%;
 }
 
 .introPictureBackground{
