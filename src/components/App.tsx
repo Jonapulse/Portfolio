@@ -29,6 +29,27 @@ const breadcrumbsStyle: CSS.Properties = {
   margin: '3vh 0',
 };
 
+const linkStyle = {
+	normal: {
+		borderBottom: '1px dotted rgb(0, 168, 0)',
+	},
+	hover: {
+		borderBottom: '1px solid rgb(0, 168, 0)',
+		color: 'black',
+	},
+	active: 'hover',
+	touchActive: {
+		borderBottom: '1px dashed rgb(0, 168, 0)',
+		color: 'black',
+	},
+	focusFromTab: {
+		outline: '2px solid rgb(0, 152, 0)',
+		outlineOffset: '2px',
+		color: 'black',
+	},
+	touchActiveTapOnly: true,
+};
+
 ReactGA.initialize('G-SKKTXY1H9Z');
 
 export const App: React.VFC = () => (
@@ -43,7 +64,7 @@ export const App: React.VFC = () => (
 		|
 		<InteractiveLink to="/PortfolioPage"> Portfolio </InteractiveLink>
 		|
-		<InteractiveLink to="/Resume"> Resume </InteractiveLink>
+		<a className="topLink" href="./art/resume21c.pdf">Resume </a>
 	</div>
 
     <Switch>
