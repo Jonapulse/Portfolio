@@ -18,8 +18,8 @@ const RepoReadmeLink: React.VFC = () => (
 
 export const PortfolioPage: React.VFC = () => {
 	ReactGA.pageview(window.location.pathname);
-	return(
-		<div>
+	return (
+		<div className="portfolioContainer">
 			<div className="portfolioTitle"><div className="portfolioTitleText">Portfolio</div></div>
 			<table className="gridContainer portfolioSqueeze">
 				<InteractiveLink to="/LightBorrower">

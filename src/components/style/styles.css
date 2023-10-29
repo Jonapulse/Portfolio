@@ -116,19 +116,28 @@ li{
 	margin-right: 15px;
 }
 
+.portfolioContainer{
+	margin-left: 20px;
+	margin-right: 0;
+}
+
 .portfolioTitle {
 	font-size: 25px;
 	text-align: center;
 	vertical-align: middle;
 	margin-bottom: 1vh;
-	margin-left: 26px;
-	width: 947px;
+	margin-right: 20px;
+	width: auto;
 	height: 100px;
 	background-color: #cfe7fd;
 }
 
 .portfolioTitleText {
 	padding-top: 35px;
+}
+
+.portfolioSqueeze {
+	padding: 0 0 0 0;
 }
 
 .shield {
@@ -200,10 +209,6 @@ li{
 
 .label{
 	vertical-align: middle;
-}
-
-.portfolioSqueeze{
-	padding: 0 22px 0 22px;
 }
 
 .resumePage {
