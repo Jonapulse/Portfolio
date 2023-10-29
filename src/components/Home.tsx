@@ -4,6 +4,8 @@ import { InteractiveLink } from './InteractiveLink';
 import { Code, P } from './UI';
 import { HoverGif } from './HoverGif';
 import './style/styles.css';
+import ReactGA from 'react-ga';
+
 
 const pageLinkContainerStyle: CSS.Properties = {
   display: 'block',
@@ -18,6 +20,7 @@ const RepoReadmeLink: React.VFC = () => (
 
 
 export const Home: React.VFC = () => {
+	ReactGA.pageview(window.location.pathname);
 	return (
 		<div className="homeContainer">
 			<div className="aboutMeContainer">

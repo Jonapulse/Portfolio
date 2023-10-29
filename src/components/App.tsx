@@ -12,11 +12,7 @@ import { HotsCoach } from './HotsCoach';
 import { PortfolioPage } from './PortfolioPage';
 import { Resume } from './Resume';
 import { Contact } from './Contact';
-import { ExampleComponent } from './ExampleComponent';
-import { ExampleTwoDeepComponent } from './ExampleTwoDeepComponent';
-import { SitemapLinkGenerator } from './SitemapLinkGenerator';
-import { PageNotFound } from './PageNotFound';
-import { Breadcrumbs } from './Breadcrumbs';
+import ReactGA from 'react-ga';
 
 const rootStyle: CSS.Properties = {
 
@@ -33,9 +29,7 @@ const breadcrumbsStyle: CSS.Properties = {
   margin: '3vh 0',
 };
 
-const tagManagerArgs = {
-	gtmId: 'GTM-T28KQHLZ'
-}
+ReactGA.initialize('G-SKKTXY1H9Z');
 
 export const App: React.VFC = () => (
   <div style={rootStyle}>

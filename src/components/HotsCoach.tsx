@@ -3,6 +3,7 @@ import * as CSS from 'csstype';
 import { InteractiveLink } from './InteractiveLink';
 import { Code, P } from './UI';
 import { HoverGifArticle } from './HoverGifArticle';
+import ReactGA from 'react-ga';
 
 const pageLinkContainerStyle: CSS.Properties = {
   display: 'block',
@@ -10,6 +11,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 };
 
 export const HotsCoach: React.VFC = () => {
+	ReactGA.pageview(window.location.pathname);
 	return (
 		<div>
 			<div className="articleIntro">
