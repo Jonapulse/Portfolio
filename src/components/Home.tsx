@@ -29,14 +29,13 @@ const tagManagerArgs = {
 export const Home: React.VFC = () => {
 	TagManager.dataLayer(tagManagerArgs);
 	return (
-		<div>
+		<div className="homeContainer">
 			<div className="aboutMeContainer">
 				<img className="mePicture" src="./art/portrait.jpg"></img>
 				<p className="aboutMe">Howdy. <br></br> I'm a game developer who's spent the last several years traveling the Pacific Northwest, working in industry and releasing my own projects. On weekends I like to spend time gardening and cooking, both mature, adult hobbies that my younger self would see as signs of impending mortality. Every day we take another step closer to the end, and I'd love to spend that time working for you!</p>
 			</div>
 			<div>
 				<table className="gridContainer">
-					<div className="gridLabel"><img className="label" src="./art/gamesLabel.jpg" style={{ width: '17px', height: '121px' }}></img></div>
 					<InteractiveLink to="/LightBorrower">
 						<HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower" subtitle="Game Lead - Unity"> </HoverGif>
 					</InteractiveLink>
@@ -46,7 +45,6 @@ export const Home: React.VFC = () => {
 					<InteractiveLink to="/HeartburnBoulevard">
 						<HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard" subtitle="Platformer Physics - Web"> </HoverGif>
 					</InteractiveLink>
-					<div className="gridLabel"><img className="label" src="./art/toolsLabel.jpg" style={{ width: '17px', height: '123px' }}></img></div>
 					<InteractiveLink to="/ControllerConversion3D">
 						<HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller" subtitle="Physics - Unity"> </HoverGif>
 					</InteractiveLink>
