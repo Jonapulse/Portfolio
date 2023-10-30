@@ -11,7 +11,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 };
 
 export const ControllerConversion3D: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("3DRaycaster");
 	return (
 		<div className="articleContent">
 			<div className="articleIntro">

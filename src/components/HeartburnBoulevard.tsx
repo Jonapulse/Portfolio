@@ -11,12 +11,12 @@ const pageLinkContainerStyle: CSS.Properties = {
 };
 
 export const HeartburnBoulevard: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("HeartburnBoulevard");
 	return (
 		<div className="articleContent">
 			<div className="articleIntro">
 				<div className="articleTitle" style={{ position: 'relative' }}><p style={{ position: 'absolute', left: '30px', top: '30px', color: 'black' }}>Heartburn Boulevard</p> <img src="./art/hbBanner.jpg"></img></div>
-				<p>Heartburn Boulevard is a 2D puzzle platformer developed in Unity, set in a rundown city inspired by film noir and the human gut biome. It is built around the mechanic of allowing the player to split into two avatars with mirrored movement. To make the project, I... </p>
+				<p>Heartburn Boulevard (<ReactGA.OutboundLink className="topLink" eventLabel="hbGameLink" to="https://jonapulse.itch.io/heartburn-boulevard" target="_blank">Play here!</ReactGA.OutboundLink>) is a 2D puzzle platformer developed in Unity, set in a rundown city inspired by film noir and the human gut biome. It is built around the mechanic of allowing the player to split into two avatars with mirrored movement. To make the project, I... </p>
 				<div className="articlePictureRight introOverride"><HoverGifArticle stillPath="./art/hbIntro.jpg" gifPath="./art/hbIntro.gif" subTitle="Midnight, in the bowels of the city"> </HoverGifArticle></div>
 				<ul>
 					<li>Prototyped and developed a tile-based 2d platformer where the players simultaneously control multiple entities.</li>

@@ -11,7 +11,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 };
 
 export const LevelEditor: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("LevelEditor");
 	return (
 		<div className="articleContent">
 			<div className="articleIntro">

@@ -17,7 +17,7 @@ const RepoReadmeLink: React.VFC = () => (
 );
 
 export const PortfolioPage: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("Portfolio");
 	return (
 		<div className="portfolioContainer">
 			<div className="portfolioTitle"><div className="portfolioTitleText">Portfolio</div></div>

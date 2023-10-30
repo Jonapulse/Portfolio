@@ -16,7 +16,7 @@ const RepoReadmeLink: React.VFC = () => (
 );
 
 export const Resume: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("Resume");
 	return (
 		<div className="resumePage">
 			<a href="./art/resume21c.pdf">

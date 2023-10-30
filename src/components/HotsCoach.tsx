@@ -11,7 +11,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 };
 
 export const HotsCoach: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("HotsCoach");
 	return (
 		<div>
 			<div className="articleIntro">

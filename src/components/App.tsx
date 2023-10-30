@@ -80,6 +80,6 @@ export const App: React.VFC = () => (
 	  <Route exact path="/Contact" component={Contact} />
     </Switch>
 
-	<div className="copyright">© 2021 Jonah Pulsipher</div>
+	<div className="copyright">© 2023 Jonah Pulsipher</div>
   </div>
 );

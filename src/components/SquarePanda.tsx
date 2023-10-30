@@ -13,7 +13,7 @@ const pageLinkContainerStyle: CSS.Properties = {
 
 export const SquarePanda: React.VFC = () => 
 	{
-		ReactGA.pageview(window.location.pathname);
+		ReactGA.pageview("SquarePanda");
 		return(<div className = "articleContent" >
 					<div className="articleIntro">
 						<div className="articleTitle" style={{ position: 'relative' }}><p style={{ position: 'absolute', left: '30px', top: '30px', color: 'black' }}>Square Panda</p> <img src="./art/squareBanner.jpg"></img></div>

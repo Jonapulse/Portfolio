@@ -20,7 +20,7 @@ const RepoReadmeLink: React.VFC = () => (
 
 
 export const Home: React.VFC = () => {
-	ReactGA.pageview(window.location.pathname);
+	ReactGA.pageview("Home");
 	return (
 		<div className="homeContainer">
 			<div className="aboutMeContainer">
