@@ -14,6 +14,7 @@ import { Resume } from './Resume';
 import { Contact } from './Contact';
 import DarkTheme from './DarkTheme';
 import ReactGA from 'react-ga';
+import Tomato from './Tomato';
 
 const rootStyle: CSS.Properties = {
 
@@ -28,27 +29,6 @@ const repoLinkStyle: CSS.Properties = {
 
 const breadcrumbsStyle: CSS.Properties = {
   margin: '3vh 0',
-};
-
-const linkStyle = {
-	normal: {
-		borderBottom: '1px dotted rgb(0, 168, 0)',
-	},
-	hover: {
-		borderBottom: '1px solid rgb(0, 168, 0)',
-		color: 'black',
-	},
-	active: 'hover',
-	touchActive: {
-		borderBottom: '1px dashed rgb(0, 168, 0)',
-		color: 'black',
-	},
-	focusFromTab: {
-		outline: '2px solid rgb(0, 152, 0)',
-		outlineOffset: '2px',
-		color: 'black',
-	},
-	touchActiveTapOnly: true,
 };
 
 ReactGA.initialize('G-SKKTXY1H9Z');
@@ -81,6 +61,6 @@ export const App: React.VFC = () => (
 	  <Route exact path="/Contact" component={Contact} />
     </Switch>
 
-		<div className="copyright">© 2023 Jonah Pulsipher <DarkTheme /></div>
+		<div className="footer"><div>© 2021 Jonah Pulsipher</div><div style={{ width: '20px'}}>~</div><DarkTheme /></div>
   </div>
 );

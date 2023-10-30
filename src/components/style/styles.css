@@ -43,6 +43,14 @@ li{
 	text-align:center;
 }
 
+.footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 5vh;
+	font-size: 12px;
+	text-align: center;
+}
+
 .jobTitle{
 	margin-right: 0.7vh;
 }
@@ -67,6 +75,7 @@ li{
 	text-align: center;
 	font-size: 18px;
 	margin-bottom: 2.5vh;
+	border-color: black;
 }
 
 .homeContainer {
@@ -269,13 +278,20 @@ li{
 	max-width: 100%;
 }
 
+.tomato-container {
+	width: 100%;
+	max-width: 200px; /* You can adjust the maximum width as needed */
+	height: auto;
+}
+
 .topLink {
 	border-bottom: 1px dotted rgb(0, 168, 0);
-}	
+	border-color: black;
+}
 
 .topLink:hover {
 	border-bottom: 1px solid rgb(0, 168, 0);
-	color: black;
+	border-color: black;
 	cursor: pointer;
 }
 
@@ -308,12 +324,6 @@ li{
 	font-size: 14px;
 	text-align: center;
 	margin-bottom: 1vh;
-}
-
-.copyright{
-	margin-top: 5vh;
-	font-size: 12px;
-	text-align: center;
 }
 
 .video-responsive {

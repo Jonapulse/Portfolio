@@ -40,7 +40,7 @@ export const Home: React.VFC = () => {
 						<HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard" subtitle="Platformer Physics - Web"> </HoverGif>
 					</InteractiveLink>
 				</table>
-				<div className="highlightHeader">...some tools...</div>
+				<div className="highlightHeader">...some tools I developed...</div>
 				<table className="gridContainer">
 					<InteractiveLink to="/ControllerConversion3D">
 						<HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller" subtitle="Physics - Unity"> </HoverGif>
