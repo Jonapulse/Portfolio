@@ -25,9 +25,10 @@ export const Home: React.VFC = () => {
 		<div className="homeContainer">
 			<div className="aboutMeContainer">
 				<img className="mePicture" src="./art/portrait.jpg"></img>
-				<p className="aboutMe">Howdy. <br></br> I'm a game developer who's spent the last several years traveling the Pacific Northwest, working in industry and releasing my own projects. On weekends I like to spend time gardening and cooking, both mature, adult hobbies that my younger self would see as signs of impending mortality. Every day we take another step closer to the end, and I'd love to spend that time working for you!</p>
+				<p className="aboutMe">I'm a game developer with ten years of experience releasing projects independently and within the industry. Let's make something. Let's make it well.</p>
 			</div>
 			<div>
+				<div className="highlightHeader">Here are some highlights from my portfolio...</div>
 				<table className="gridContainer">
 					<InteractiveLink to="/LightBorrower">
 						<HoverGif stillPath="./art/windowTransitionStill.jpg" gifPath="./art/windowTransitionGif.gif" title="Light Borrower" subtitle="Game Lead - Unity"> </HoverGif>
@@ -38,6 +39,9 @@ export const Home: React.VFC = () => {
 					<InteractiveLink to="/HeartburnBoulevard">
 						<HoverGif stillPath="./art/hbStill.jpg" gifPath="./art/hbGif.gif" title="Heartburn Boulevard" subtitle="Platformer Physics - Web"> </HoverGif>
 					</InteractiveLink>
+				</table>
+				<div className="highlightHeader">...some tools...</div>
+				<table className="gridContainer">
 					<InteractiveLink to="/ControllerConversion3D">
 						<HoverGif stillPath="./art/3drayStill.jpg" gifPath="./art/3drayGif.gif" title="3D Raycast Controller" subtitle="Physics - Unity"> </HoverGif>
 					</InteractiveLink>
@@ -48,6 +52,7 @@ export const Home: React.VFC = () => {
 						<HoverGif stillPath="./art/hotsCoachStill.jpg" gifPath="./art/hotsCoachGif.gif" title="HotsCoach" subtitle="Data Processing - Python"> </HoverGif>
 					</InteractiveLink>
 				</table>
+				<div className="highlightHeader">and <a className="topLink" href="/PortfolioPage">the rest</a>.</div>
 			</div>
 		</div>
 	);
