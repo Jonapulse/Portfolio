@@ -12,6 +12,7 @@ import { HotsCoach } from './HotsCoach';
 import { PortfolioPage } from './PortfolioPage';
 import { Resume } from './Resume';
 import { Contact } from './Contact';
+import DarkTheme from './DarkTheme';
 import ReactGA from 'react-ga';
 
 const rootStyle: CSS.Properties = {
@@ -80,6 +81,6 @@ export const App: React.VFC = () => (
 	  <Route exact path="/Contact" component={Contact} />
     </Switch>
 
-	<div className="copyright">© 2023 Jonah Pulsipher</div>
+		<div className="copyright">© 2023 Jonah Pulsipher <DarkTheme /></div>
   </div>
 );
