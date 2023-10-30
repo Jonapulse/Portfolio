@@ -25,7 +25,7 @@ export const Home: React.VFC = () => {
 		<div className="homeContainer">
 			<div className="aboutMeContainer">
 				<img className="mePicture" src="./art/portrait.jpg"></img>
-				<p className="aboutMe">I'm a game developer with ten years of experience releasing projects independently and within the industry. Let's make something. Let's make it well.</p>
+				<p className="aboutMe">I'm a game developer with ten years of experience releasing projects within the industry and independently. Let's make something. Let's make it well.</p>
 			</div>
 			<div>
 				<div className="highlightHeader">Here are some highlights from my portfolio...</div>
