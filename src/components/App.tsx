@@ -14,7 +14,6 @@ import { Resume } from './Resume';
 import { Contact } from './Contact';
 import DarkTheme from './DarkTheme';
 import ReactGA from 'react-ga';
-import Tomato from './Tomato';
 
 const rootStyle: CSS.Properties = {
 

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
+import ReactGA from 'react-ga';
 
 function DarkTheme() {
 
@@ -7,6 +8,7 @@ function DarkTheme() {
 	const [isPlaying, setIsPlaying] = useState(false);
 
 	const handleClick = () => {
+		ReactGA.event({category: 'User Interaction', action: 'Clicked Button', label: 'Dark Theme button'});
 		setIsClicked(!isClicked);
 		setIsPlaying(!isClicked);
 	};
