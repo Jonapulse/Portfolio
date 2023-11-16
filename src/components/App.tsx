@@ -60,6 +60,6 @@ export const App: React.VFC = () => (
 	  <Route exact path="/Contact" component={Contact} />
     </Switch>
 
-		<div className="footer"><div>© 2021 Jonah Pulsipher</div><div style={{ width: '20px'}}>~</div><DarkTheme /></div>
+		<div className="footer">© 2021 Jonah Pulsipher</div>
   </div>
 );
